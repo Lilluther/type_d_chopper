@@ -1,0 +1,23 @@
+# Build outputs
+build/
+*.elf
+*.hex
+*.o
+*.a
+*.s
+*.d
+
+# VS Code artefacts
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/c_cpp_properties.json
+
+# Toolchain temporary files & logs
+*.log
+*.tmp
+
+# OS specific system files
+.DS_Store
+Thumbs.db
+[Dd]esktop.ini
